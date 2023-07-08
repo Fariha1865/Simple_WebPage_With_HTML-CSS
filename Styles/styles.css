@@ -48,6 +48,8 @@ header{
 }
 
 .banner{
+    
+    background-image: linear-gradient(to right,#d44f66 20%, rgba(241, 91, 34, 0.00) 70%);
     background-repeat: no-repeat;
     display: flex;
     /* justify-content: space-around; */
