@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-image: url('../images/banner/banner1.png');
+    background-size: cover;
+    height: 100vh;
+    border: 2px solid black;
+}
+
+.header_text_contaner{
+      padding: 216px 200px 400px 600px;
+      text-align: right;
+}
+
+.main_header{
+    color: #151414;
+   /* text-align: right; */
+   margin-bottom: 10px;
+   font-size: 65px;
+   font-style: normal;
+   font-weight: 700;
+
+}
+
+.header_text{
+    color: #444343;
+    /* text-align: right; */
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.btn{
+    border-radius: 5px;
+    background: #F15B22;  
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+.banner{
+    background-repeat: no-repeat;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 100px;
+    margin: 100px 200px;
+    border: 2px solid black;
+}
+.banner_head{
+    color: #151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.banner_text{
+    color:#444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+li{
+
+   list-style: none;
+   color: #444343;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+  
+}
+
+ul li:before {
+    content: '✓';
+    color: rgb(99, 240, 99);
+    font-weight: bolder;
+    padding-right: 10px;
+	
+    
+  }
+
+  .plans
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.plan_columns{
+    text-align: center;
+}
+
+
+.plan_icons{
+    height: 70px;
+    width: 70px;
+}
+
+.section_head{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.call{
+
+    background-image: linear-gradient(to right,#F15B22 0%, rgba(241, 91, 34, 0.00) 100%),url('../images/watch.png');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding: 60px 617px 100px 64px;
+   margin: 150px 200px;
+}
+
+.call_head{
+   color: #FFF;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+
+}
+#btn_prime{
+    border-radius: 5px;
+    background: #FFF;
+    padding: 10px;
+    border: none;
+    color: #F15B22;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    margin-top: 30px;
+
+}
+
+
