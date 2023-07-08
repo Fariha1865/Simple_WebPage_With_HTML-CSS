@@ -146,4 +146,46 @@ ul li:before {
 
 }
 
+footer{
+    background-color: black;
+    color: white;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+    padding: 100px 200px;
+}
+
+.
+#Future{
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+#footer_text, #email{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+
+#subscribe{
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+
+
+
 
